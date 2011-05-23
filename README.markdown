@@ -23,11 +23,11 @@ of the GNU General Public License.
 Usage
 -----
 
-Simply pipe some html code into it and it will produce a LaTeX document
-on its standard output. 
+Simply pipe some html code into it and it will produce a LaTeX document on
+its standard output.
 
-If you have pdflatex installed, you can compile the LaTeX file to a PDF file by piping the output
-to pdflatex, like so:
+If you have pdflatex installed, you can compile the LaTeX file to a PDF file
+by piping the output to pdflatex, like so:
 
     html2latex < input.html > pdflatex
 
